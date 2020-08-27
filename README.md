@@ -19,11 +19,11 @@ python3 rescale_video.py -f="./videos/OneRepublic - Counting Stars (Official Mus
 -f command for desire filepath(relative or full path)
 -o to save output file.
 
-### To convert all videos in desire file 
+### To convert all videos from desire folder 
 
 ```
 python3 rescale_video.py -d="./videos" -o="./output"
 ```
--d for folderpath to convert files
--o for folderpath to save output files 
+-d for folderpath to convert files.
+-o for folderpath to save output files. 
 Note: You dont need specify filename in both -f and -o for -d command.
